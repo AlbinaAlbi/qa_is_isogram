@@ -13,7 +13,7 @@ describe('isIsogram', () => {
     expect(isIsogram('Adam')).toBe(false);
   });
 
-  it(`should return false if 'word' doesn't include repeating letters.`, () => {
+  it(`should return true if 'word' doesn't include repeating letters.`, () => {
     expect(isIsogram('playgrounds')).toBe(true);
   });
 });
